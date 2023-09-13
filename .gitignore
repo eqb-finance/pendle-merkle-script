@@ -37,3 +37,5 @@ out/
 
 coverage.json
 .npmrc
+
+yarn-error.log
