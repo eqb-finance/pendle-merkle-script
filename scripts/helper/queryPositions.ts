@@ -3,7 +3,7 @@ import { PoolsData, UserVeBalanceList } from './types';
 import { BigNumber as BN, BigNumberish } from 'ethers';
 import { getWeekEndTimestamp, getWeekStartTimestamp } from './misc';
 
-const URL = 'https://api.0xgraph.xyz/api/public/c1ee65c0-aca9-4438-82bc-5028a4c92d26/subgraphs/pendle-finance/core-mainnet/6/gn';
+const URL = 'https://api.0xgraph.xyz/api/public/9abd747f-98f7-4801-bf60-de5b33db1598/subgraphs/pendle-finance/core-mainnet/latest/gn';
 const vePendle = '0x4f30a9d41b80ecc5b94306ab4364951ae3170210';
 const _104_WEEKS = 104 * 7 * 24 * 60 * 60;
 
