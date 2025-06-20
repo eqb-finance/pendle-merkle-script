@@ -56,7 +56,7 @@ async function main() {
         return [time, list];
     }));
 
-    console.log(resultList);
+    console.log(JSON.stringify(resultList, null, 2));
 }
 
 main()
